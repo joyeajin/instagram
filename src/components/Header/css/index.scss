@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 100;
+    .wrapper{
+        margin: 0 auto;
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navigation{
+            .nav-wrapper{
+                display: grid;
+                grid-template-columns: repeat(2, 30px);
+                column-gap: 18px;
+                .nav{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
